@@ -13,10 +13,9 @@
 
 
 int main() {
-
-    int tabuleiro[TAM][TAM];
-
-    // DEFININDO O TABULEIRO COMPLETO COM AGUA (0)
+   int tabuleiro[TAM][TAM];
+  
+   // DEFININDO O TABULEIRO COMPLETO COM AGUA (0)
     for (int i = 0; i < TAM; i++){
         for (int j = 0; j < TAM; j++){
             tabuleiro[i][j] = AGUA;
@@ -124,7 +123,7 @@ int main() {
     printf("ÁGUA = 0 NAVIO = 3 SUPER PODER = 1\n");
     printf("\n");
     
-
+    
     for (int i = 0; i < TAM; i++){
         for (int j = 0; j < TAM; j++){
             printf("%2d ", tabuleiro[i][j]);
